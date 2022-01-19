@@ -8,7 +8,9 @@
       <th></th>
     </tr>
   </thead>
-  <tbody *ngFor="let pais of paises; index as i">
+  <tbody 
+    *ngFor="let pais of paises; index as i" 
+    class='animate__animated animate__fadeIn'>
     <tr>
       <td>{{ i + 1 }}</td>
       <td>

@@ -9,6 +9,7 @@ import { VerPaisComponent } from './pages/ver-pais/ver-pais.component';
 import { AppRoutingModule } from '../app-routing.module';
 import { PaisTablaComponent } from './components/pais-tabla/pais-tabla.component';
 import { PaisInputComponent } from './components/pais-input/pais-input.component';
+import { SugerenciasComponent } from './components/sugerencias/sugerencias.component';
 
 
 
@@ -20,7 +21,8 @@ import { PaisInputComponent } from './components/pais-input/pais-input.component
     PorRegionComponent,
     VerPaisComponent,
     PaisTablaComponent,
-    PaisInputComponent
+    PaisInputComponent,
+    SugerenciasComponent
   ],
   exports:[
     PorCapitalComponent,
